@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'Kanha Blog'
 theme = 'terminal'
 
+[params]
+  ReadMore = 'Read More'
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
