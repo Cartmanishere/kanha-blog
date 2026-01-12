@@ -1,5 +1,5 @@
 ---
-author: ''
+author: Pranav Gajjewar
 authorTwitter: ''
 cover: ''
 date: '2026-01-12T17:54:23+09:00'
