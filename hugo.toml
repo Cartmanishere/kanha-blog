@@ -1,0 +1,8 @@
+baseURL = 'https://kanha.dev/'
+languageCode = 'en-us'
+title = 'Kanha Blog'
+theme = 'terminal'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
