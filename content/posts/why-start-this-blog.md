@@ -1,5 +1,5 @@
 +++
-title = "Why start this blog?"
+title = "Why start this blog again?"
 date = "2026-01-12T16:45:35+09:00"
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
 author = "Pranav Gajjewar"
