@@ -1,0 +1,82 @@
+.note {
+  position: relative;
+  border: 2px solid;
+  border-radius: 0;
+  margin: 25px 0;
+  padding: 20px;
+  display: flex;
+  gap: 15px;
+  font-family: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace;
+}
+
+.note__icon {
+  color: var(--accent);
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 1.4;
+  flex-shrink: 0;
+}
+
+.note__content {
+  flex: 1;
+}
+
+.note__title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.note__body p:first-child {
+  margin-top: 0;
+}
+
+.note__body p:last-child {
+  margin-bottom: 0;
+}
+
+.note--info {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+}
+
+.note--info .note__icon {
+  color: var(--accent);
+}
+
+.note--warning {
+  border-color: #ff6b6b;
+  background: color-mix(in srgb, #ff6b6b 10%, transparent);
+}
+
+.note--warning .note__icon {
+  color: #ff6b6b;
+}
+
+.note--success {
+  border-color: #51cf66;
+  background: color-mix(in srgb, #51cf66 10%, transparent);
+}
+
+.note--success .note__icon {
+  color: #51cf66;
+}
+
+.note--danger {
+  border-color: #ff6b6b;
+  background: color-mix(in srgb, #ff6b6b 15%, transparent);
+}
+
+.note--danger .note__icon {
+  color: #ff6b6b;
+}
+
+.note--tip {
+  border-color: #339af0;
+  background: color-mix(in srgb, #339af0 10%, transparent);
+}
+
+.note--tip .note__icon {
+  color: #339af0;
+}

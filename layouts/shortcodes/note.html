@@ -1,0 +1,9 @@
+<div class="note note--{{ .Get "type" | default "info" }}">
+  <div class="note__icon">></div>
+  <div class="note__content">
+    {{ if .Get "title" }}
+      <div class="note__title">{{ .Get "title" }}</div>
+    {{ end }}
+    <div class="note__body">{{ .Inner | markdownify }}</div>
+  </div>
+</div>
