@@ -1,9 +1,9 @@
 ---
 author: Pranav Gajjewar
-cover: ''
+cover: '/images/jupyter-notebooks-remote-server/ssh-tunneling-diagram.png'
 date: '2019-07-12'
 dateFormat: '2006-01-02'
-description: ''
+description: 'Access jupyter notebooks running on remote machine using just SSH'
 hideComments: false
 keywords:
 - jupyter

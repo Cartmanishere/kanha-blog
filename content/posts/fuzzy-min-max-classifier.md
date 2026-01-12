@@ -1,8 +1,8 @@
 ---
 author: Pranav Gajjewar
-cover: ''
+cover: '/images/fuzzy-min-max-classifier/neural-network-architecture.png'
 date: '2018-09-30'
-description: Looking into how a Fuzzy min-max classifier works and building one yourself
+description: Looking into how a Fuzzy min-max classifier works and building one yourself.
 hideComments: false
 keywords:
 - machine
