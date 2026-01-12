@@ -1,6 +1,7 @@
 ---
 title: "Test Note Shortcode"
 date: 2026-01-12
+draft: true
 ---
 
 # Testing Note Shortcode
