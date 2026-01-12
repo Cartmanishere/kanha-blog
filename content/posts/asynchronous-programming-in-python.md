@@ -32,7 +32,9 @@ If you’re a beginner in web scraping, then I assume you’ve worked with reque
 ```python
 def parse(soup):
     # Extract data
-    # return dataurls = [...]results = []
+    # return dataurls = [...]
+    results = []
+
 for url in urls:
     r = requests.get(url)
     soup = BeautifulSoup(r.content, 'lxml')
