@@ -50,7 +50,7 @@ The authentication  method is irrelevant. As long as you can connect to your sys
 
 This is also known as port forwarding. What this means is that you setup a network tunnel (a connection for data to flow) from a local point to remote point.
 
-Example: `ssh username@``xx``.xx.xx.xx` `-NL 1234:localhost:1234` (for Unix)
+Example: `ssh username@xx.xx.xx.xx -NL 1234:localhost:1234` (for Unix)
 
 Look  at the above example, `1234:localhost:1234` is the important part. What does it mean? It means that any network request you send to port `1234` in your current system will be automatically forwarded to `localhost:1234`  _from the remote system_.
 
@@ -73,11 +73,13 @@ This will start the jupyter  notebook on port `1234` . You will also get a URL w
 
 `http://localhost:8888/?token=8d186032bbbe095b294789e863b065a546fcc15b68683c99`
 
--   **O****n U****nix**
+-   **On Unix**
     To start SSH tunneling on unix, open your terminal and enter the following command —
-    `s``sh` `-NL` `1234``:localhost:1234` `username@172.26.36.128``s``sh -NL 1234:localhost:1234` `-i` `/path/to/private_key`
--   **On Windows
-    **You want to use PuTTY to start the SSH Tunnel, you can do it as follows —
+    ```bash
+    ssh -NL 1234:localhost:1234 username@172.26.36.128 -i /path/to/private_key
+    ```
+-   **On Windows**
+    You want to use PuTTY to start the SSH Tunnel, you can do it as follows —
 
 ![](/images/jupyter-notebooks-remote-server/putty-connection-details.jpeg)
 
