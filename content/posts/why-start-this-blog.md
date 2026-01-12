@@ -3,7 +3,7 @@ author: Pranav Gajjewar
 authorTwitter: ''
 cover: ''
 date: '2026-01-12T16:45:35+09:00'
-description: First blog to commerate the starting of this blog
+description: ''
 hideComments: true
 keywords:
 - personal
