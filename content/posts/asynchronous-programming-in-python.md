@@ -2,7 +2,7 @@
 title = "Asynchronous Web Scraping in Python using concurrent module"
 date = "2018-04-22"
 dateFormat = "2006-01-02"
-author = ""
+author = "Pranav Gajjewar"
 authorTwitter = "" #do not include @
 cover = "/images/asynchronous-programming-cover.png"
 tags = ["blog", "programming"]
