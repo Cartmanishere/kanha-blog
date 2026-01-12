@@ -1,17 +1,21 @@
-+++
-title = "Asynchronous Web Scraping in Python using concurrent module"
-date = "2018-04-22"
-dateFormat = "2006-01-02"
-author = "Pranav Gajjewar"
-authorTwitter = "" #do not include @
-cover = "/images/asynchronous-programming-cover.png"
-tags = ["blog", "programming"]
-keywords = ["python", "asynchronous"]
-description = "Explore python asynchronous programming via web scraping example"
-showFullContent = false
-readingTime = false
-hideComments = false
-+++
+---
+author: Pranav Gajjewar
+authorTwitter: ''
+cover: /images/asynchronous-programming-cover.png
+date: '2018-04-22'
+dateFormat: '2006-01-02'
+description: Explore python asynchronous programming via web scraping example
+hideComments: false
+keywords:
+- python
+- asynchronous
+readingTime: false
+showFullContent: false
+tags:
+- blog
+- programming
+title: Asynchronous Web Scraping in Python using concurrent module
+---
 
 Ever felt frustrated at how long your web scraping script takes to complete the task? Have you ever wished there was a faster way to do your web scraping?
 

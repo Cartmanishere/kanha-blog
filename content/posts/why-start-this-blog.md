@@ -1,17 +1,20 @@
-+++
-title = "Why start this blog again?"
-date = "2026-01-12T16:45:35+09:00"
-#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
-author = "Pranav Gajjewar"
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["blog", "personal"]
-keywords = ["personal", "blog"]
-description = "First blog to commerate the starting of this blog"
-showFullContent = false
-readingTime = false
-hideComments = true
-+++
+---
+author: Pranav Gajjewar
+authorTwitter: ''
+cover: ''
+date: '2026-01-12T16:45:35+09:00'
+description: First blog to commerate the starting of this blog
+hideComments: true
+keywords:
+- personal
+- blog
+readingTime: false
+showFullContent: false
+tags:
+- blog
+- personal
+title: Why start this blog again?
+---
 
 # Motivation
 

@@ -1,16 +1,19 @@
-+++
-title = "Understanding Fuzzy Neural Network using code and animation"
-date = "2018-09-30"
-#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
-author = "Pranav Gajjewar"
-cover = ""
-tags = ["blog", "machine-learning"]
-keywords = ["machine", "learning"]
-description = "Looking into how a Fuzzy min-max classifier works and building one yourself"
-showFullContent = false
-readingTime = false
-hideComments = false
-+++
+---
+author: Pranav Gajjewar
+cover: ''
+date: '2018-09-30'
+description: Looking into how a Fuzzy min-max classifier works and building one yourself
+hideComments: false
+keywords:
+- machine
+- learning
+readingTime: false
+showFullContent: false
+tags:
+- blog
+- machine-learning
+title: Understanding Fuzzy Neural Network using code and animation
+---
 
 In this post we’ll learn about Fuzzy Neural Network, or more specifically Fuzzy Min-Max Classifier. If you don’t know Fuzzy theory, I’ll be briefly going over that too. If you’re already acquainted with the basics of fuzzy sets, you can safely skip that section. In this post, we’ll be talking about a basic fuzzy min-max classifier given by Patrick Simpson in 1992 in [this paper](https://ieeexplore.ieee.org/document/159066/).
 

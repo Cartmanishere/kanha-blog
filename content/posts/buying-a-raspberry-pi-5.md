@@ -1,18 +1,21 @@
-+++
-title = "Buying a Raspberry Pi 5"
-date = "2026-01-12T17:54:23+09:00"
-#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["blog", "raspberry-pi"]
-keywords = ["raspberry-pi", "personal"]
-description = "I finally decided to jump into the rabbit hole"
-showFullContent = false
-readingTime = false
-hideComments = true
-draft = true
-+++
+---
+author: ''
+authorTwitter: ''
+cover: ''
+date: '2026-01-12T17:54:23+09:00'
+description: I finally decided to jump into the rabbit hole
+draft: true
+hideComments: true
+keywords:
+- raspberry-pi
+- personal
+readingTime: false
+showFullContent: false
+tags:
+- blog
+- raspberry-pi
+title: Buying a Raspberry Pi 5
+---
 
 I finally decided to jump into this rabbit hole.
 
